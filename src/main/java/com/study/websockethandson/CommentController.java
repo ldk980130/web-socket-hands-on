@@ -8,7 +8,7 @@ import org.springframework.stereotype.Controller;
 
 @Controller
 @Slf4j
-public class MessageController {
+public class CommentController {
 
     @MessageMapping("/game/{gameId}/comment")
     @SendTo("/topic/game/{gameId}")
